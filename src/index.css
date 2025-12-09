@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-text antialiased scroll-smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-8 py-3 bg-primary text-white font-medium tracking-wide uppercase text-sm transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg rounded-sm;
+  }
+  .btn-outline {
+    @apply px-8 py-3 border border-text text-text font-medium tracking-wide uppercase text-sm transition-all duration-300 hover:bg-text hover:text-white rounded-sm;
+  }
+  .section-padding {
+    @apply py-20 md:py-28;
+  }
+}
