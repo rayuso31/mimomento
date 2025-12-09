@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import WhatsAppWidget from './components/WhatsAppWidget';
+import ChatWidget from './components/ChatWidget';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </main>
       <Footer />
       <WhatsAppWidget />
+      <ChatWidget />
     </div>
   );
 }
