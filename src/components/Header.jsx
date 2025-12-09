@@ -21,17 +21,18 @@ const Header = () => {
         >
             <div className="container flex items-center justify-between">
                 {/* Logo */}
-                <a href="#" className="text-2xl md:text-3xl font-heading font-semibold tracking-wider text-text">
-                    Mimomento
+                <a href="#" className="font-heading font-bold tracking-wider text-primary flex flex-col items-start leading-none group">
+                    <span className="text-2xl md:text-3xl">Estética</span>
+                    <span className="text-lg md:text-xl text-text font-light tracking-[0.2em] group-hover:text-primary transition-colors">Láser Valencia</span>
                 </a>
 
                 {/* Desktop Menu */}
                 <nav className="hidden md:flex gap-8 items-center">
-                    {['Tratamientos', 'El Salón', 'Contacto'].map((item) => (
+                    {['Depilación', 'Tratamientos', 'El Centro', 'Opiniones', 'Contacto'].map((item) => (
                         <a
                             key={item}
                             href={`#${item.toLowerCase().replace(' ', '-')}`}
-                            className="hover:text-primary transition-colors font-medium"
+                            className="hover:text-primary transition-colors font-medium text-sm tracking-wide uppercase"
                         >
                             {item}
                         </a>
@@ -58,12 +59,12 @@ const Header = () => {
                         transition={{ duration: 0.2 }}
                         className="absolute top-full left-0 w-full bg-white shadow-xl p-8 flex flex-col gap-6 text-center md:hidden"
                     >
-                        {['Tratamientos', 'El Salón', 'Contacto'].map((item) => (
+                        {['Depilación', 'Tratamientos', 'El Centro', 'Opiniones', 'Contacto'].map((item) => (
                             <a
                                 key={item}
                                 href={`#${item.toLowerCase().replace(' ', '-')}`}
                                 onClick={() => setIsMobileMenuOpen(false)}
-                                className="text-lg hover:text-primary transition-colors"
+                                className="text-lg hover:text-primary transition-colors uppercase font-medium"
                             >
                                 {item}
                             </a>

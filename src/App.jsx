@@ -9,7 +9,7 @@ import ChatWidget from './components/ChatWidget';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app font-sans text-text antialiased">
       <Header />
       <main>
         <Hero />

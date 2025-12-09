@@ -72,7 +72,7 @@ const ChatWidget = () => {
                                     <Bot size={20} />
                                 </div>
                                 <div>
-                                    <h3 className="font-heading font-semibold">Asistente Mimomento</h3>
+                                    <h3 className="font-heading font-semibold">Asistente Estética Láser</h3>
                                     <p className="text-xs text-white/80">En línea</p>
                                 </div>
                             </div>

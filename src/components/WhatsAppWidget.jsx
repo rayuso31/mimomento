@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+// Simple WhatsApp Scan Icon for clean look (or stick to standard logo)
 const WhatsAppIcon = ({ size = 24, color = "white" }) => (
     <svg
         width={size}
@@ -14,8 +15,8 @@ const WhatsAppIcon = ({ size = 24, color = "white" }) => (
 );
 
 const WhatsAppWidget = () => {
-    const phoneNumber = "34960210309";
-    const message = "Hola, quería reservar una cita en Mimomento.";
+    const phoneNumber = "34615024489"; // Correct phone for Estética Laser
+    const message = "Hola, me gustaría información sobre la depilación láser.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     return (

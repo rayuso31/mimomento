@@ -7,18 +7,18 @@ export default {
     theme: {
         extend: {
             colors: {
-                primary: '#C5A059', // Elegant Bronze/Gold
-                secondary: '#FAF6F0', // Warm Cream
-                accent: '#D4AF37', // Gold Accent
+                primary: '#2A9D8F', // Clean Teal/Turquoise
+                secondary: '#EDF6F5', // Very light mint/white
+                accent: '#264653', // Dark Blue/Green for text/contrast
                 text: {
-                    DEFAULT: '#2C2C2C',
-                    light: '#666666'
+                    DEFAULT: '#2C3E50', // Dark Slate Blue
+                    light: '#7F8C8D' // Grey
                 }
             },
             fontFamily: {
                 serif: ['Playfair Display', 'serif'],
                 sans: ['Montserrat', 'sans-serif'],
-                heading: ['Cormorant Garamond', 'serif'], // Adding a more "classic" heading font if desired, or stick to Playfair
+                heading: ['Montserrat', 'sans-serif'], // More modern/clinical look
             }
         },
         container: {
